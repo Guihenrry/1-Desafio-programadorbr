@@ -1,0 +1,98 @@
+/*==== Reset =====*/
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+	font-weight: 300;
+}
+
+ul {
+	list-style: none;
+}
+
+span {
+	color: rgb(255, 0, 1);
+}
+
+/*===== Configuração da cartão =====*/
+.cartao {
+	margin: 100px auto 0 auto;
+	width: 450px;
+	height: 250px;
+	display: flex;
+	box-shadow: 1px 1px 2px black;
+}
+
+/*===== parte da esquerda =====*/
+.esquerda {
+	padding: 50px 40px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.esquerda h1 {
+	font-size: 5rem;
+}
+
+.esquerda h2 {
+	font-size: 1.9rem;
+}
+
+/*===== Divisão =====*/
+.divisao {
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.divisao hr{
+	width: 13px;
+	height: 115px;
+	border: none;
+}
+
+.divisao hr:first-child {
+	background-color: black;
+}
+
+.divisao hr:last-child {
+	background-color: rgb(255, 0, 1);
+}
+
+/*===== Direita =====*/
+.direita {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: right;
+	padding: 20px 0 10px 40px;
+}
+
+.direita h2 {
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.direita h3 {
+	margin-right: 70px;
+	margin-bottom: 30px;
+}
+
+.direita h4{
+	margin-bottom: 30px;
+}
+
+.contato  {
+	display: flex;
+	flex-direction: column;
+}
+
+.contato p {
+	margin-bottom: 10px;
+}
+.contato i {
+	margin-left: 10px;
+
+}
